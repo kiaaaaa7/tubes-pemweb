@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Grid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8faff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .icon-card {
+            background: #112b59;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .icon-card .icon {
+            font-size: 40px;
+            padding: 20px;
+        }
+
+        .icon-card .icon span {
+            display: block;
+        }
+
+        .icon-card .title {
+            background: #fff;
+            color: #333;
+            padding: 10px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-grid">
+        <div class="icon-card">
+            <div class="icon">
+                <span>&#128100;</span>
+            </div>
+            <div class="title">Accessibility Icons</div>
+        </div>
+        <div class="icon-card">
+            <div class="icon">
+                <span>&#128276;</span>
+            </div>
+            <div class="title">Alert Icons</div>
+        </div>
+        <div class="icon-card">
+            <div class="icon">
+                <span>&#127912;</span>
+            </div>
+            <div class="title">Alphabet Icons</div>
+        </div>
+        <div class="icon-card">
+            <div class="icon">
+                <span>&#128640;</span>
+            </div>
+            <div class="title">Astronomy Icons</div>
+        </div>
+        <div class="icon-card">
+            <div class="icon">
+                <span>&#128663;</span>
+            </div>
+            <div class="title">Automotive Icons</div>
+        </div>
+        <div class="icon-card">
+            <div class="icon">
+                <span>&#128218;</span>
+            </div>
+            <div class="title">Education Icons</div>
+        </div>
+    </div>
+</body>
+</html>
