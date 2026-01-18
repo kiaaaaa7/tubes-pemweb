@@ -44,7 +44,7 @@
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4 title="BERITA">BERITA</h4>
+                                <h4 title="BERITA">INFORMASI</h4>
                             </div>
                             <div class="card-body">
                                 {{ App\Models\Post::count() ?? '0' }}
