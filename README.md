@@ -13,7 +13,7 @@
 
 **Kelas:** AA  
 **Mata Kuliah:** Pemrograman Web  
-
+Proyek ini dikerjakan secara berkelompok sebagai bagian dari tugas perkuliahan.
 ---
 ## About Laravel
 
