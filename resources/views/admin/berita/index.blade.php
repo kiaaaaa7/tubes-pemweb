@@ -22,7 +22,7 @@
                                     <input type="text" class="form-control" name="q"
                                         placeholder="Cari berdasarkan judul berita">
                                     <div class="input-group-append">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> CARI
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> CARI BERITA
                                         </button>
                                     </div>
                                 </div>
